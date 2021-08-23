@@ -4,17 +4,15 @@
 
 /*=====CSS for Dropdown Menus=====*/
 
-body{
+/* body{
     margin:0;
     background-color: gray;
 }
 .container {
     height:60px;
-  background-color: gray;
-  /* margin-top: 95px; */
   position: relative;
   text-shadow: #000;
-}
+} */
 
 .shadow {
   text-shadow: 2px 2px 5px red;
@@ -35,16 +33,14 @@ body{
 
 .navbar {
   /* position: fixed; */
-  background: black;
-  top: 0;
-  left: 0;
-  margin:0;
-  z-index: 100;
+  background-color: #e3f2fd;
+  
   width: 100%;
   height: 90px;
   /* overflow: auto; */
   border-bottom: 4px solid green;
 }
+
 
 footer {
   position: fixed;
@@ -78,7 +74,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color:  aqua;;
   font-family: "Roboto Slab", serif;
 }
 
@@ -113,7 +109,7 @@ a:hover {
 #menu-icon {
   float: left;
   text-decoration: none;
-  color: white;
+  color: aqua;;
   background: red;
   text-align: center;
   font-size: 40px;
@@ -143,6 +139,14 @@ a:hover {
   margin-right: 30%;
   border: none;
   font-size: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(201, 21, 21, 0.5);
+}
+
+.color{
+  background-color: gray;
 }
 
 /*MEDIA QUERY*/
