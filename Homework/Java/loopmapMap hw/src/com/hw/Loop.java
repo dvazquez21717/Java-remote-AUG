@@ -38,8 +38,7 @@ public class Loop {
                 int number = scan.nextInt();
                 num_list.add(number);
             }
-            for (int i = 0; i < num_list.size(); i++) {
-                int num = num_list.get(i);
+            for (int num : num_list) {
                 sum += num;
                 product *= num;
                 if (num > max) {
