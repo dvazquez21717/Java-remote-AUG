@@ -32,8 +32,8 @@ if we passed in "size = 4" and "power = 2" to the "toPower," the method should r
 
     public static void sum(int[] numArr){
         int sum = 0;
-        for(int i = 0; i < numArr.length; i++){
-            sum+= numArr[i];
+        for (int j : numArr) {
+            sum += j;
         }
         System.out.println(sum);
     }
