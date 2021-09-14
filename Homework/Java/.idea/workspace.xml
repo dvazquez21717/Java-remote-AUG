@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd2a59ec-f05c-4339-af2a-5154e8b09df6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control flow/AsciiChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loopmapMap hw/loopmapMap hw.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loopmapMap hw/untitled104.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fd2a59ec-f05c-4339-af2a-5154e8b09df6" name="Changes" comment="Java Control Flow">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pet-Custom/Pet-Custom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pet-Custom/src/com/hw/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pet-Custom/src/com/hw/VideoGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetCustom/PetCustom.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hw/ArrayHW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hw/Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +35,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.VideoGame (1)">
     <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project" />
       <module name="Homework" />
@@ -55,8 +48,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VideoGame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hw.VideoGame" />
+      <module name="Pet-Custom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="VideoGame" />
+      <module name="Pet/Custom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Project" />
+      <item itemvalue="Application.VideoGame" />
+      <item itemvalue="Application.VideoGame (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VideoGame (1)" />
+        <item itemvalue="Application.VideoGame" />
         <item itemvalue="Application.Project" />
       </list>
     </recent_temporary>
@@ -70,6 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1631544407319</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java Control Flow">
+      <created>1631558518565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631558518565</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +112,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Control Flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Control Flow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
