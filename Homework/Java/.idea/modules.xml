@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Homework.iml" filepath="$PROJECT_DIR$/Homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pet-Custom/Pet-Custom.iml" filepath="$PROJECT_DIR$/Pet-Custom/Pet-Custom.iml" />
       <module fileurl="file://$PROJECT_DIR$/loopmapMap hw/loopmapMap hw.iml" filepath="$PROJECT_DIR$/loopmapMap hw/loopmapMap hw.iml" />
     </modules>
   </component>
