@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd2a59ec-f05c-4339-af2a-5154e8b09df6" name="Changes" comment="Java Control Flow">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pet-Custom/Pet-Custom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pet-Custom/src/com/hw/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pet-Custom/src/com/hw/VideoGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetCustom/PetCustom.iml" afterDir="false" />
+    <list default="true" id="fd2a59ec-f05c-4339-af2a-5154e8b09df6" name="Changes" comment="Classes Hw">
+      <change afterPath="$PROJECT_DIR$/calculator/calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/MagicCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetCustom/PetCustom.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Application.VideoGame (1)">
+  <component name="RunManager" selected="Application.MagicCalculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MagicCalculator" />
+      <module name="calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project" />
       <module name="Homework" />
@@ -74,9 +87,13 @@
       <item itemvalue="Application.Project" />
       <item itemvalue="Application.VideoGame" />
       <item itemvalue="Application.VideoGame (1)" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.MagicCalculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MagicCalculator" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.VideoGame (1)" />
         <item itemvalue="Application.VideoGame" />
         <item itemvalue="Application.Project" />
@@ -99,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631558518565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Classes Hw">
+      <created>1631637274132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631637274132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Control Flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Control Flow" />
+    <MESSAGE value="Classes Hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes Hw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
