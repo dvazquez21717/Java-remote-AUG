@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd2a59ec-f05c-4339-af2a-5154e8b09df6" name="Changes" comment="Classes Hw">
-      <change afterPath="$PROJECT_DIR$/calculator/calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/MagicCalculator.java" afterDir="false" />
+    <list default="true" id="fd2a59ec-f05c-4339-af2a-5154e8b09df6" name="Changes" comment="Calculator HW">
+      <change afterPath="$PROJECT_DIR$/LibraryHW/LibraryHW.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetCustom/PetCustom.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Application.MagicCalculator">
+  <component name="RunManager" selected="Application.Library">
+    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book" />
+      <module name="LibraryHW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="calculator" />
@@ -47,16 +51,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MagicCalculator" />
-      <module name="calculator" />
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Library" />
+      <module name="LibraryHW" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project" />
-      <module name="Homework" />
+    <configuration name="MagicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MagicCalculator" />
+      <module name="calculator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,29 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VideoGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="VideoGame" />
-      <module name="Pet/Custom" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Project" />
-      <item itemvalue="Application.VideoGame" />
       <item itemvalue="Application.VideoGame (1)" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.MagicCalculator" />
+      <item itemvalue="Application.Book" />
+      <item itemvalue="Application.Library" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.Book" />
         <item itemvalue="Application.MagicCalculator" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.VideoGame (1)" />
-        <item itemvalue="Application.VideoGame" />
-        <item itemvalue="Application.Project" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631637274132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calculator HW">
+      <created>1631640500207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631640500207</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Control Flow" />
     <MESSAGE value="Classes Hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes Hw" />
+    <MESSAGE value="Calculator HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator HW" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
