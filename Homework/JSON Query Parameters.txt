@@ -1,0 +1,18 @@
+JSON Query Parameters
+-Query parameters have naming constraints
+    -they are case sensitive, must have one character, contain only allowed characters and start and end with a globally allowed character 
+    -globally allowed characters are 'a-z', 'A-Z', '0-9', non-ASCII charactrs(not recommended)
+    -query parameters also required to contain at least one non a-z character such as "-", "_" or using a capital letter
+-if a query parameter doesnt meet the naming requiremnets and no instruction is given to the server on how to process it then
+    the server must return a 400 Bad Request to the client
+
+example of query:
+GET http://localhost:8080/api/tickets?type=foo&color=green
+where the parameters are type and color with their specifications of foo and green
+
+parameters can also be be in {}
+GET http://localhost:8080/api/tickets?params={"type":"foo","color":"green"}
+
+parameters can be URL-encoded (translates special characters from the URL that follows specifications and can be correctly understood/interpreted)
+to ensure it is safely sent
+GET /tickets?params=%7B%22type%22%3A%22foo%22%2C%22color%22%3A%22green%22%7D

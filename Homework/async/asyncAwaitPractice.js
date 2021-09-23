@@ -18,10 +18,9 @@ async function remoteData(city){
 
     if(promise.ok){
         let json = await promise.json();
-        var data = json;
         console.log("Here is your city's long and lat: ");
-        console.log("Longitude: " + data['longt']);
-        console.log("Latitude: " + data['latt']);
+        console.log("Longitude: " + json['longt']);
+        console.log("Latitude: " + json['latt']);
     }else{
         throw new Error (promise.status);
     }
