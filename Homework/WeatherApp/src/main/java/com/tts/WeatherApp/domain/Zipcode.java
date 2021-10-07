@@ -11,6 +11,11 @@ public class Zipcode {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
+    public Zipcode(String zipcode) {
+        this.zipcode = zipcode;
+    }
+
     private String zipcode;
 
     @Override

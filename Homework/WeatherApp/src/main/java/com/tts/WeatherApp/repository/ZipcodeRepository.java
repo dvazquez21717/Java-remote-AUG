@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 
 
 public interface ZipcodeRepository extends CrudRepository<Zipcode, Long> {
-        public Zipcode findById(int id);
+//        List<Zipcode> findbyZipcode(String zipcode);
 
 }
