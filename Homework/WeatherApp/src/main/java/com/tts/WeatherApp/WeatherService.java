@@ -1,6 +1,7 @@
 package com.tts.WeatherApp;
 
 
+import com.tts.WeatherApp.domain.Zipcode;
 import com.tts.WeatherApp.repository.ZipcodeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,7 +22,11 @@ public class WeatherService {
                 zipCode + "&units=imperial&appid=" + apiKey;
         RestTemplate restTemplate = new RestTemplate();
         try {
-            return restTemplate.getForObject(url, Response.class);
+
+            Response myresponse = restTemplate.getForObject(url, Response.class);
+            Zipcode zip = new Zipcode(zipCode);
+            zip = zipcodeRepository.save(zip);
+            return myresponse;
         }
         catch (HttpClientErrorException ex) {
             Response response = new Response();
