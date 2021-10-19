@@ -1,0 +1,18 @@
+5 aspects about Databases and SQL
+1. Databases let us house and maniupulate data using SQL queries to select
+or change aspects of the data.
+2. Databases let us describe the data as well as the relationships between tables of the databases
+such as a user can have many personal webpages.
+3. Databases can use SQL to sort data into different forms ie rearrange data
+based on a shared key(column) to perform aggregate functions.
+4. Databases and SQL let software and applications reduce/control data redunancy to improve
+system performance.
+5. Databases allows for data to remain consistent so that various users of a software/application
+can concurrently make changes to their data even while others are using it.
+
+Questions
+1. Difference between SQL and MYSQL.
+2. What is denormalization 
+3. How are data anomalies handled 
+4. What is meant by the cardinality/multiplicity between entities with relationships
+5. What normal forms do databases usually use
