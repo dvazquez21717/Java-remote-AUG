@@ -1,6 +1,111 @@
-import React from "react";
+import React, {Component} from 'react';
 import ReactDOM from "react-dom";
 import "./index.css";
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
+import {LinkContainer} from 'react-router-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';  
+// import reportWebVitals from './reportWebVitals';
+import giphy from '../src/assets/giphy.gif';
+import 'react-bootstrap/dist/react-bootstrap.min.js';
+
+
+// Home component
+
+class Home extends Component {
+  render(){
+    return(
+      <div>
+        <h1>React Router TicTacToe</h1>
+        <h4>"TicTacToe Urls for all winners!"</h4>
+        <img 
+        src= {giphy}
+        alt="new"
+      />
+      </div>
+    );
+  }
+}
+
+class About extends Component {
+  render(){
+    return(
+      <div>
+        <h1>About Us</h1>
+        <p>"We here at the Triple-T love playing with URLs, especially ones tied to awesome React Components."</p>
+        <p>"Play a game of TicTacToe on our React Component that will follow you around the links."</p>
+      </div>
+    );
+  }
+}
+
+// Menu component
+
+class Links extends Component {
+  render(){
+    return(
+      <div>
+        <h1>Game</h1>
+        <div className ="TTT"> </div>
+        <p>"Check out our amazing TTT URLs:"
+          <ul>
+            <li>Lazy Loading</li>
+            <li>Dynamic Route Matching</li>
+            <li>"Location Transition Handling"</li>
+          </ul>
+        </p>
+      </div>
+    );
+  }
+}
+
+class Nb extends Component {
+  render(){
+    return(
+      // <div className="nav">
+      //   <Link to="/">Home</Link> | 
+      //   <Link to="links">Links</Link> | 
+      //   <Link to="about">About</Link>
+      // </div>
+
+      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="mr-auto">
+      <LinkContainer to="/">
+      <Nav.Link>Home</Nav.Link>
+      </LinkContainer>
+      <LinkContainer to="/about">
+      <Nav.Link>About</Nav.Link>
+      </LinkContainer>
+      <LinkContainer to="/links">
+      <Nav.Link>Links</Nav.Link>
+      </LinkContainer>
+      </Nav>
+      </Navbar.Collapse>
+      </Navbar>
+    );
+  }
+}
+
+class Routes extends Component {
+  render(){
+    return(
+      <Router>
+        <div>
+          <Nb />
+          <hr />
+          <Route name="Home" exact path="/" component={Home}/>
+          <Route name="Links" path="/links" component={Links}/>
+          <Route name="About" path="/about" component={About} />
+        </div>
+      </Router>
+    );
+  }
+}
+
 
 function Square(props) {
   return (
@@ -123,7 +228,7 @@ class Game extends React.Component {
 
 // ========================================
 
-ReactDOM.render(<Game />, document.getElementById("root"));
+ReactDOM.render(<div><Routes /> <Game /></div>, document.getElementById("root"));
 
 function calculateWinner(squares) {
   const lines = [
